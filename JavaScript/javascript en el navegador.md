@@ -615,7 +615,7 @@ es moverse de un lugar a otro atravesar el DOM
   >
   > * `nextElementSibling` : el siguiente hermano que es un elemento 
   >
-  > * `previusSibling` : El elemento previo o nodo
+  > * `previousSibling` : El elemento previo o nodo
   >
   > * `previusElementSibling`: El hermano anterior que es un elemento
   >

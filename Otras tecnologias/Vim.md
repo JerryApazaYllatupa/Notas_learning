@@ -4,7 +4,7 @@ Vim es un editor de código para editar archivos
 
 
 
-## Comándos para navegar
+## Comandos para navegar
 
 * `k`: Para arriba
 * `j`: Para abajo
