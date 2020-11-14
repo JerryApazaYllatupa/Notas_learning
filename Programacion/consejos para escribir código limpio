@@ -1,0 +1,45 @@
+
+
+# Consejos para escribir Código limpio 
+
+1. ### Nombres con sentido
+
+   nombrar las variables las funciones o constantes con sentido a lo que van hacer, deben indicar por si solos que hacen 
+
+2. ### Nombres que se puedan pronunciar
+
+   Es sugerido y recomendado hasta obligatorio que las variables, funciones o constantes se declaren en ingles, por la el estándar de la industria del software y deben poder ser pronunciados
+
+3. ### Nombres que se puedan buscar
+
+   tratemos de declarar con nombres que se puedan buscar y que sean únicas 
+
+4. ### Uso de las abreviaciones  
+
+   claro que podemos utilizar las abreviaciones por ejemplo `source` podría ser igual a `src` o `image` a `img` 
+
+5. ### Variables de una sola letra 
+
+   también podemos utilizar variables de una sola letra por ejemplo cuando utilizamos los siclos como `for` o cuando pasamos una `"n"` en una función 
+
+6. #### Las funciones deben hacer una cosa
+
+   Es normal cuando iniciamos o simplemente no nos damos cuenta que dentro de una función intentamos llenar de muchas cosas y al final no coincide con lo que dice y hace la función, bueno tratemos de que las funciones no sean muy largas, si tenemos el caso podemos dividir y dentro de la función principal tratemos de llamar a las demás funciones 
+
+7. ### Escribir código es como escribir un libro 
+
+   cuando escribas código debes saber que cuando alguien o tu mismo va volver a revisar el código, se pueda entender como si estuvieras leyendo un libro, con todo sus capítulos y así podrás entender el libro 
+
+8. ### Las funciones no deben tener efectos secundarios
+
+   como dijimos antes las funciones deben hacer una sola cosa pero tienen que hacerlo bien, tratemos siempre de simplificar si se puede 
+
+9. ### Haz  testing
+
+   ​	si no haces un test de tu código, lo estas haciendo mal  https://ed.team/cursos/metodologias-tdd
+
+   tenemos muchas razones para hacer un test de nuestros código, que nos permite corregir bugs, permite dividir nuestro código, te ayuda a desacoplar y clases y estructuras innecesarios 
+
+10. ### Comentarios
+
+    Los comentarios se deben usar siempre en cuando aporten valor al código 

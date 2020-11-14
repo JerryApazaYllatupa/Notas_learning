@@ -103,7 +103,7 @@ las variables son un espacio reservado en memoria,
   * referencia 
 
     > como sabemos las variables compuestas son los arreglos y objetos por lo tanto cuando vemos esto de un variable esta cogiendo un arreglo para sus datos esto lo que hace cuando modificamos un valor en la variable b seria modificar al  la variable y por eso se dice por referencia que si se puede modificar el valor de donde esta cogiendo la referencia 
-	
+
 
 ### Operadores 
 
@@ -698,15 +698,28 @@ para acceder a estos propiedades tenemos dos formas
 * igualar a variables
 
   > ```javascript
-  >  let a= 'Hola'
-  >  let b = 'Mundo'
-  >  let ar = {[a]: 'saludo'}
-  >  Object { Hola: "saludo" }
+  > let a= 'Hola'
+  > let b = 'Mundo'
+  > let ar = {[a]: 'saludo'}
+  > Object { Hola: "saludo" }
   > 
   > // y tambien tenemos de esta forma
   > 
   > let myObjet = {a,b}
   > Object { a: "Hola", b: "Mundo" }
+  > 
+  > object{
+  >     'sider':{
+  >         'nombre':"valor"
+  >         'nombre':"valor"
+  >         'nombre':"valor"
+  >         'nombre':"valor"
+  >         'nombre':"valor"
+  >         'nombre':"valor"
+  >         'nombre':"valor"
+  >         'nombre':"valor"
+  >     }
+  > }
   > 
   > ```
 

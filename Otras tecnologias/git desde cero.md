@@ -316,6 +316,13 @@ Es un sistema de control de versiones que originalmente fue diseñado para opera
 
 > 1. para esto tenemos que crear un llave publicó 
 >
+>    ```bash
+>    ssh-keygen -t rsa #comando para generar la llave del repositorio
+>    
+>    ```
+>
+>    
+>
 > ```bash
 > ssh-keygen -t rsa // comando para generar el la llave del repositorio
 > // y seria algo asi 
@@ -360,7 +367,7 @@ Es un sistema de control de versiones que originalmente fue diseñado para opera
 >   > git pull origin master
 >   > ```
 >   
->* `git push origin master`: para agregar todo los nuevos archivos al repositorio 
+> * `git push origin master`: para agregar todo los nuevos archivos al repositorio 
 
 
 

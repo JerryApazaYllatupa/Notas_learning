@@ -184,9 +184,9 @@ y al final lo que tendríamos en el navegador es este diseño
   >   border: 1px solid black;
   > }
   > .item img{
-  >   width:100%;
-  >   height: 100%;
-  >   object-fit:cover;
+  >   	width:100%;
+  >   	height: 100%;
+  >   	object-fit:cover;
   > }
   > ```
   >

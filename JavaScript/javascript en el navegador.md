@@ -1,5 +1,9 @@
 
 
+[TOC]
+
+
+
 # JavaScript en el navegador 
 
 ## DOM
@@ -624,6 +628,7 @@ es moverse de un lugar a otro atravesar el DOM
 * Padres
 
   	>  * `parentNode`: el nodo del padre
+  >    	
   >    	
   >    	>  * `parentElement`: el elemento padre
   >

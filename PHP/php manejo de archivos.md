@@ -226,3 +226,28 @@ if(move_uploaded_file($fileTmpPath, $dest_path)){
 ```
 
 La función `move_uploaded_file` toma dos argumentos. El primer argumento es el nombre de archivo del archivo cargado, y el segundo argumento es la ruta de destino a la que desea mover el archivo. 
+
+## Código para revisar
+
+```php
+$files_post = $_FILES['file'];
+
+$files = array();
+$file_count = count($files_post['name']);
+$file_keys = array_keys($files_post);
+
+
+for ($i = 0; $i < $file_count; $i++) {
+
+  foreach ($file_keys as $key) {
+    $files[$i][$key] = $files_post[$key][$i];
+  }
+}
+foreach ($files as $fileID => $file) {
+  $fileContent = file_get_contents($file['tmp_name']);
+  file_put_contents('../img/' . $file['name'], $fileContent);
+}
+
+
+```
+
